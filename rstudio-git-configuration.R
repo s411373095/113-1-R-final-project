@@ -51,3 +51,7 @@ usethis::git_sitrep()
 # ----------------------------------------------------------------------------
 
 ## THAT'S IT!
+
+library(tidyverse)
+native <- read_csv("2015_01_10570-00-01-2_臺中市政府醫療保健經費支出.csv")
+glimpse(native)
